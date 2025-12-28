@@ -18,6 +18,8 @@ sequenceDiagram
     Note over Eu, Caixa: O processo de Atribuição
     Eu->>Caixa: Envio o valor "Léo"
     Caixa-->>Caixa: Guardo na etiqueta 'nome'
+
+```
 Como escrever em Python?
 Em Python, a sintaxe é direta. Primeiro escrevemos o nome da etiqueta (o nome da variável), no nosso caso:
 
@@ -42,7 +44,3 @@ Esse é o método que usamos para o Python entender que estamos enviando um Text
 Nessa aula, aprendemos como passar uma informação para a memória do computador.
 
 🚀 Próxima Aula: Vamos aprender como fazer o computador "falar" com a gente usando o comando print e faremos nossa primeira interação real!
-
-
----
-

@@ -11,15 +11,16 @@ Vamos guardar o meu nome: **Léo**.
 ## Visualizando o Processo
 
 ```mermaid
-sequenceDiagram
-    participant Eu as Programador
-    participant Caixa as Variável (Memória)
-    
-    Note over Eu, Caixa: O processo de Atribuição
-    Eu->>Caixa: Envio o valor "Léo"
-    Caixa-->>Caixa: Guardo na etiqueta 'nome'
+graph LR
+    A("Léo") -- Atribuição (=) --> B[Variável: nome]
+    B --> C[("🧠 Memória do Computador")]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:black
+    style B fill:#bbf,stroke:#333,stroke-width:2px,color:black
+    style C fill:#fff,stroke:#333,stroke-width:4px,color:black
 
 ```
+
 Como escrever em Python?
 Em Python, a sintaxe é direta. Primeiro escrevemos o nome da etiqueta (o nome da variável), no nosso caso:
 
